@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupDocs.Storage.Cloud.Sdk", "GroupDocs.Storage.Cloud.Sdk\GroupDocs.Storage.Cloud.Sdk.csproj", "{F2FA9D76-84C0-4C35-ACF2-5AA7625871A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupDocs.Storage.Cloud.Sdk.Tests", "GroupDocs.Storage.Cloud.Sdk.Test\GroupDocs.Storage.Cloud.Sdk.Tests.csproj", "{19F1DEBC-DE5E-4517-8062-F000CD499087}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DACCE9FE-60DF-4B41-9672-7B5A212F8A7F}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2FA9D76-84C0-4C35-ACF2-5AA7625871A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2FA9D76-84C0-4C35-ACF2-5AA7625871A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2FA9D76-84C0-4C35-ACF2-5AA7625871A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2FA9D76-84C0-4C35-ACF2-5AA7625871A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F1DEBC-DE5E-4517-8062-F000CD499087}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {822401DB-6861-4838-BA56-918988A62671}
+	EndGlobalSection
+EndGlobal
