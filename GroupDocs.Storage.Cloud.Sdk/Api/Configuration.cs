@@ -32,8 +32,8 @@ namespace GroupDocs.Storage.Cloud.Sdk
     /// </summary>
     public class Configuration
     {
-        private string apiBaseUrl = "https://api-qa.groupdocs.cloud";
-        private string version = "v1.1";
+        private string apiBaseUrl = "https://api.groupdocs.cloud";
+        private string version = "v1.0";
 
         private bool debugMode = false;
 
