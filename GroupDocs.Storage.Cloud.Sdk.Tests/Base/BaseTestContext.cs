@@ -23,7 +23,7 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace GroupDocs.Storage.Cloud.Sdk.Test.Base
+namespace GroupDocs.Storage.Cloud.Sdk.Tests.Base
 {
     using System.IO;
 

@@ -26,12 +26,12 @@
 using GroupDocs.Storage.Cloud.Sdk.Api;
 using GroupDocs.Storage.Cloud.Sdk.Model;
 using GroupDocs.Storage.Cloud.Sdk.Model.Requests;
-using GroupDocs.Storage.Cloud.Sdk.Test.Base;
+using GroupDocs.Storage.Cloud.Sdk.Tests.Base;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.IO;
 
-namespace GroupDocs.Storage.Cloud.Sdk.Test
+namespace GroupDocs.Storage.Cloud.Sdk.Tests
 {
     /// <summary>
     ///  Class for testing StorageApi

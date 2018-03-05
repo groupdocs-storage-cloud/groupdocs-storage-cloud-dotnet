@@ -14,8 +14,8 @@ OpenAPI spec version: 1.0
     <ProjectGuid>{F2FA9D76-84C0-4C35-ACF2-5AA7625871A5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GroupDocs.Storage.Cloud.Dotnet.Sdk</RootNamespace>
-    <AssemblyName>GroupDocs.Storage.Cloud.Dotnet.Sdk</AssemblyName>
+    <RootNamespace>GroupDocs.Storage.Cloud.Sdk</RootNamespace>
+    <AssemblyName>GroupDocs.Storage.Cloud.Sdk</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

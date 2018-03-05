@@ -4,7 +4,7 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupDocs.Storage.Cloud.Sdk", "GroupDocs.Storage.Cloud.Sdk\GroupDocs.Storage.Cloud.Sdk.csproj", "{F2FA9D76-84C0-4C35-ACF2-5AA7625871A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupDocs.Storage.Cloud.Sdk.Tests", "GroupDocs.Storage.Cloud.Sdk.Test\GroupDocs.Storage.Cloud.Sdk.Tests.csproj", "{19F1DEBC-DE5E-4517-8062-F000CD499087}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupDocs.Storage.Cloud.Sdk.Tests", "GroupDocs.Storage.Cloud.Sdk.Tests\GroupDocs.Storage.Cloud.Sdk.Tests.csproj", "{19F1DEBC-DE5E-4517-8062-F000CD499087}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DACCE9FE-60DF-4B41-9672-7B5A212F8A7F}"
 	ProjectSection(SolutionItems) = preProject
