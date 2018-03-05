@@ -52,8 +52,6 @@ OpenAPI spec version: 1.0
     <Compile Include="Api\ApiException.cs" />
     <Compile Include="Api\AuthType.cs" />
     <Compile Include="Api\Configuration.cs" />
-    <Compile Include="Api\FileApi.cs" />
-    <Compile Include="Api\FolderApi.cs" />
     <Compile Include="Api\StorageApi.cs" />
     <Compile Include="Internal\ApiInvoker.cs" />
     <Compile Include="Internal\FileInfo.cs" />

@@ -38,7 +38,7 @@ namespace GroupDocs.Storage.Cloud.Dotnet.Sdk.Test
         {
             // Arrange         
             var api =
-                new FileApi(
+                new StorageApi(
                     new Configuration
                     {
                         AppKey = AppKey,
