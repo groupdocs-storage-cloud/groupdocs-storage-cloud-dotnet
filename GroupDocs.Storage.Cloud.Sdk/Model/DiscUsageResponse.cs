@@ -36,7 +36,7 @@ namespace GroupDocs.Storage.Cloud.Sdk.Model
   /// <summary>
   /// 
   /// </summary>  
-  public class DiscUsageResponse : ResponseMessage 
+  public class DiscUsageResponse : GroupDocsResponse 
   {                       
         /// <summary>
         /// Gets or sets DiscUsage

@@ -36,7 +36,7 @@ namespace GroupDocs.Storage.Cloud.Sdk.Model
   /// <summary>
   /// 
   /// </summary>  
-  public class FileExistResponse : ResponseMessage 
+  public class FileExistResponse : GroupDocsResponse 
   {                       
         /// <summary>
         /// Gets or sets FileExist

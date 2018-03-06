@@ -36,7 +36,7 @@ namespace GroupDocs.Storage.Cloud.Sdk.Model
   /// <summary>
   /// 
   /// </summary>  
-  public class MoveFileResponse : ResponseMessage 
+  public class MoveFileResponse : GroupDocsResponse 
   {                       
         /// <summary>
         /// Get the string presentation of the object

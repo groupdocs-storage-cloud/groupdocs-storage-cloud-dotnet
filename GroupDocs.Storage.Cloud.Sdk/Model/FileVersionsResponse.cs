@@ -36,7 +36,7 @@ namespace GroupDocs.Storage.Cloud.Sdk.Model
   /// <summary>
   /// 
   /// </summary>  
-  public class FileVersionsResponse : ResponseMessage 
+  public class FileVersionsResponse : GroupDocsResponse 
   {                       
         /// <summary>
         /// Gets or sets FileVersions

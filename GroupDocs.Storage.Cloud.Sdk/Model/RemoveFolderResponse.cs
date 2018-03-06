@@ -36,7 +36,7 @@ namespace GroupDocs.Storage.Cloud.Sdk.Model
   /// <summary>
   /// 
   /// </summary>  
-  public class RemoveFolderResponse : ResponseMessage 
+  public class RemoveFolderResponse : GroupDocsResponse 
   {                       
         /// <summary>
         /// Get the string presentation of the object

@@ -1,5 +1,5 @@
 // --------------------------------------------------------------------------------------------------------------------
-// <copyright company="Aspose Pty Ltd" file="ResponseMessage.cs">
+// <copyright company="Aspose Pty Ltd" file="GroupDocsResponse.cs">
 //   Copyright (c) 2018 GroupDocs.Storage for Cloud
 // </copyright>
 // <summary>
@@ -36,7 +36,7 @@ namespace GroupDocs.Storage.Cloud.Sdk.Model
   /// <summary>
   /// 
   /// </summary>  
-  public class ResponseMessage 
+  public class GroupDocsResponse 
   {                       
         /// <summary>
         /// Gets or sets Code
@@ -55,7 +55,7 @@ namespace GroupDocs.Storage.Cloud.Sdk.Model
         public override string ToString()  
         {
           var sb = new StringBuilder();
-          sb.Append("class ResponseMessage {\n");
+          sb.Append("class GroupDocsResponse {\n");
           sb.Append("  Code: ").Append(this.Code).Append("\n");
           sb.Append("  Status: ").Append(this.Status).Append("\n");
           sb.Append("}\n");
