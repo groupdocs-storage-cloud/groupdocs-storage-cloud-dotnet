@@ -48,21 +48,21 @@ namespace GroupDocs.Storage.Cloud.Sdk.Model.Requests
         /// <param name="destStorage">User&#39;s destination storage name</param>
         public PutCopyFolderRequest(string path, string newdest, string storage = null, string destStorage = null)             
         {
-            this.path = path;
-            this.newdest = newdest;
+            this.Path = path;
+            this.Newdest = newdest;
             this.storage = storage;
-            this.destStorage = destStorage;
+            this.DestStorage = destStorage;
         }
 
         /// <summary>
         /// Source folder path e.g. /Folder1
         /// </summary>  
-        public string path { get; set; }
+        public string Path { get; set; }
 
         /// <summary>
         /// Destination folder path e.g. /Folder2
         /// </summary>  
-        public string newdest { get; set; }
+        public string Newdest { get; set; }
 
         /// <summary>
         /// User's source storage name
@@ -72,6 +72,6 @@ namespace GroupDocs.Storage.Cloud.Sdk.Model.Requests
         /// <summary>
         /// User's destination storage name
         /// </summary>  
-        public string destStorage { get; set; }
+        public string DestStorage { get; set; }
   }
 }
