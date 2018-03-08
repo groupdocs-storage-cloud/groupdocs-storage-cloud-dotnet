@@ -2,25 +2,21 @@
 <package >
   <metadata>
     <id>GroupDocs.Storage-Cloud</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <title>GroupDocs.Storage Cloud SDK for .NET</title>
-    <authors>Ciocan Madalina</authors>
-    <owners>GroupDocs</owners>
+    <authors>GroupDocs</authors>
+    <owners>groupdocscloud</owners>
     <licenseUrl>https://github.com/groupdocs-storage-cloud/groupdocs-storage-cloud-dotnet/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/groupdocs-storage-cloud/groupdocs-storage-cloud-dotnet</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/groupdocs-storage-cloud/groupdocs-storage-cloud-codegen/master/images/logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>New generation of GroupDocs Storage Cloud SDK that provides managers for multiple storage types in GroupDocs Cloud from .NET applications</description>
     <releaseNotes>
-      GroupDocs.Storage Cloud SDK for .NET 1.0.0 Release Notes
-      Release of the first version of the GroupDocs.Storage for Cloud SDK which is used to manipulate storages, files and folders in GroupDocs for Cloud Service.
-      The SDK includes the following features:
-      * Classes, methods and properties have comments and are IDE-friendly.
-      * OAuth2 authentication with the GroupDocs API.
-      * Usage of Request/Response classes to represent long lists of parameters.
+      GroupDocs.Storage Cloud SDK for .NET 1.1.0 Release Notes
+      * The properties from the request models have been updated to start with upper case character.
     </releaseNotes>
-    <copyright>Aspose 2002-2018. All Rights Reserved.</copyright>
-    <tags>Storage</tags>
+    <copyright>© Aspose Pty Ltd 2001-2018. All Rights Reserved.</copyright>
+    <tags>GroupDocs Storage, GroupDocs Files, GroupDocs Folders, GroupDocs 3rd Party Storages</tags>
     <dependencies>
       <dependency id="Newtonsoft.Json" version="(9.0.1,)" />
     </dependencies>
