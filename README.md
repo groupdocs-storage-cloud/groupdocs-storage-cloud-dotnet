@@ -3,7 +3,7 @@ This repository contains GroupDocs.Storage Cloud SDK for .NET source code. This 
 
 See [API Reference](https://apireference.groupdocs.cloud/storage/) for full API specification.
 ## How to use the SDK?
-The complete source code is available in this repository folder, you can either directly use it in your project via NuGet package manager. For more details, please visit our [documentation website](https://docs.groupdocs.cloud/display/storagecloud/Available+SDKs#AvailableSDKs-.NET).
+The complete source code is available in this repository folder, you can either directly use it in your project via NuGet package manager. For more details, please visit our [documentation website](https://docs.groupdocs.cloud/display/gdstoragecloud/Home).
 
 ### Prerequisites
 
@@ -51,4 +51,4 @@ var response = StorageApi.FileGetDownload(request);
 
 
 ## Contact Us
-Your feedback is very important to us. Please feel free to contact us using our [Support Forums](https://forum.groupdocs.cloud/storage).
+Your feedback is very important to us. Please feel free to contact us using our [Support Forums](https://forum.groupdocs.cloud/c/total).
