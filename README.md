@@ -42,7 +42,7 @@ var response = StorageApi.FileGetDownload(request);
 
 ```
 
-[Tests](GroupDocs.Storage.Cloud.Sdk.Test) contain various examples of using the SDK.
+[Tests](/groupdocs-storage-cloud/groupdocs-storage-cloud-dotnet/tree/master/GroupDocs.Storage.Cloud.Sdk.Tests) contain various examples of using the SDK.
 
 ## Dependencies
 - .NET Framework 2.0 or later
