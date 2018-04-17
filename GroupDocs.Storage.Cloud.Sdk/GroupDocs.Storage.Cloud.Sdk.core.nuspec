@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>GroupDocs.Storage.Core-Cloud</id>
+    <version>18.4.0</version>
+    <title>GroupDocs.Storage Cloud SDK for .NET Core</title>
+    <authors>GroupDocs</authors>
+    <owners>groupdocscloud</owners>
+    <licenseUrl>https://github.com/groupdocs-storage-cloud/groupdocs-storage-cloud-dotnet/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/groupdocs-storage-cloud/groupdocs-storage-cloud-dotnet</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/groupdocs-storage-cloud/groupdocs-storage-cloud-codegen/master/images/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>New generation of GroupDocs Storage Cloud SDK that provides managers for multiple storage types in GroupDocs Cloud from .NET Core applications</description>
+    <releaseNotes>
+      GroupDocs.Storage Cloud SDK for .NET Core 18.4.0 Release Notes
+      * The properties from the request models have been updated to start with upper case character.
+      * We switched to the YY.MM version.
+    </releaseNotes>
+    <copyright>© Aspose Pty Ltd 2001-2018. All Rights Reserved.</copyright>
+    <tags>GroupDocs Storage, GroupDocs Files, GroupDocs Folders, GroupDocs 3rd Party Storages</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="(11.0.1,)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- A readme.txt will be displayed when the package is installed -->
+    <file src="..\README.md" target="" />
+    <file src="..\..\build-out\bin\release\netcoreapp2.0\GroupDocs.Storage.Cloud.Sdk.dll" target="lib\net2.0" />
+    <file src="..\..\build-out\bin\release\netstandard2.0\GroupDocs.Storage.Cloud.Sdk.dll" target="lib\netstandard2.0" />
+  </files>
+</package>
