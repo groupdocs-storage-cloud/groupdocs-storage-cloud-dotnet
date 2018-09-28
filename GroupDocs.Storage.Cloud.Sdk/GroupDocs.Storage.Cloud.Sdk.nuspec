@@ -14,7 +14,7 @@
     <releaseNotes>
       GroupDocs.Storage Cloud SDK for .NET 18.3.0 Release Notes
       * The properties from the request models have been updated to start with upper case character.
-	  * We switched to the YY.MM version.
+      * We switched to the YY.MM version.
     </releaseNotes>
     <copyright>© Aspose Pty Ltd 2001-2018. All Rights Reserved.</copyright>
     <tags>GroupDocs Storage, GroupDocs Files, GroupDocs Folders, GroupDocs 3rd Party Storages</tags>
