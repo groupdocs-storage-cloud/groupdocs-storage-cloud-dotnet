@@ -229,7 +229,7 @@ namespace GroupDocs.Storage.Cloud.Sdk.Tests
         {
             PutCopyFolderRequest request = new PutCopyFolderRequest();
             request.Path = Path.Combine(dataFolder, "folder1");
-            request.storage = storageName;
+            request.Storage = storageName;
             request.Newdest = "folder4/folder3/folder1";
             request.DestStorage = destStorageName;
             var response = StorageApi.PutCopyFolder(request);

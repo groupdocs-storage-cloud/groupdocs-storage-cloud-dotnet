@@ -66,7 +66,6 @@ namespace GroupDocs.Storage.Cloud.Sdk.Api
             requestHandlers.Add(new OAuthRequestHandler(this.configuration));
             requestHandlers.Add(new DebugLogRequestHandler(this.configuration));
             requestHandlers.Add(new ApiExceptionRequestHandler());
-            requestHandlers.Add(new AuthWithSignatureRequestHandler(this.configuration));
             this.apiInvoker = new ApiInvoker(requestHandlers);
         }                            
 
@@ -745,7 +744,7 @@ namespace GroupDocs.Storage.Cloud.Sdk.Api
                         .Replace("/?", "?");
             resourcePath = UrlHelper.AddQueryParameterToUrl(resourcePath, "path", request.Path);
             resourcePath = UrlHelper.AddQueryParameterToUrl(resourcePath, "newdest", request.Newdest);
-            resourcePath = UrlHelper.AddQueryParameterToUrl(resourcePath, "storage", request.storage);
+            resourcePath = UrlHelper.AddQueryParameterToUrl(resourcePath, "storage", request.Storage);
             resourcePath = UrlHelper.AddQueryParameterToUrl(resourcePath, "destStorage", request.DestStorage);
 
             try

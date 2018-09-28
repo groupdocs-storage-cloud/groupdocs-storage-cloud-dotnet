@@ -59,7 +59,6 @@ OpenAPI spec version: 1.0
     <Compile Include="Internal\NeedRepeatRequestException.cs" />
     <Compile Include="Internal\RequestHandlers\ApiErrorResponse.cs" />
     <Compile Include="Internal\RequestHandlers\ApiExceptionRequestHandler.cs" />
-    <Compile Include="Internal\RequestHandlers\AuthWithSignatureRequestHandler.cs" />
     <Compile Include="Internal\RequestHandlers\DebugLogRequestHandler.cs" />
     <Compile Include="Internal\RequestHandlers\Error.cs" />
     <Compile Include="Internal\RequestHandlers\LegacyApiErrorResponse.cs" />

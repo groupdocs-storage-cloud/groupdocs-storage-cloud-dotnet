@@ -50,7 +50,7 @@ namespace GroupDocs.Storage.Cloud.Sdk.Model.Requests
         {
             this.Path = path;
             this.Newdest = newdest;
-            this.storage = storage;
+            this.Storage = storage;
             this.DestStorage = destStorage;
         }
 
@@ -67,7 +67,7 @@ namespace GroupDocs.Storage.Cloud.Sdk.Model.Requests
         /// <summary>
         /// User's source storage name
         /// </summary>  
-        public string storage { get; set; }
+        public string Storage { get; set; }
 
         /// <summary>
         /// User's destination storage name

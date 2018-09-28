@@ -72,6 +72,7 @@ namespace GroupDocs.Storage.Cloud.Sdk.Internal.RequestHandlers
             }
 
             request.Headers.Add("Authorization", "Bearer " + this.accessToken);
+            request.Timeout = configuration.Timeout;
         }       
 
         public void ProcessResponse(HttpWebResponse response, Stream resultStream)
