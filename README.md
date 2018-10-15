@@ -31,7 +31,7 @@ From within Visual Studio:
 
 ### Sample usage
 
-The examples below show how your application have to initiate and download a file using GroupDocs.Storage-Cloud library:
+The example below show how your application have to initiate and download a file using GroupDocs.Storage-Cloud library:
 ```csharp
 var configuration = new Configuration { AppSid = appSid, AppKey = appKey };
 StorageApi file = new StorageApi(configuration);
