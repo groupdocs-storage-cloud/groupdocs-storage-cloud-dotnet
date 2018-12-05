@@ -1,9 +1,10 @@
 # GroupDocs.Storage Cloud SDK for .NET
-This repository contains GroupDocs.Storage Cloud SDK for .NET source code. This SDK allows you to work with GroupDocs.Storage Cloud REST APIs in your .NET applications quickly and easily.
+This repository contains GroupDocs.Storage Cloud SDK for .NET source code. This SDK allows you to work with GroupDocs.Storage Cloud REST APIs in your .NET applications quickly and easily, with zero initial cost.
 
 See [API Reference](https://apireference.groupdocs.cloud/storage/) for full API specification.
+
 ## How to use the SDK?
-The complete source code is available in this repository folder, you can either directly use it in your project via NuGet package manager. For more details, please visit our [documentation website](https://docs.groupdocs.cloud/display/gdstoragecloud/Home).
+The complete source code is available in this repository folder. You can either directly use it in your project via source code or via [NuGet distribution](https://www.nuget.org/packages/GroupDocs.Storage-Cloud/) (recommended). For more details, please visit our [documentation website](https://docs.groupdocs.cloud/display/gdstoragecloud/Home).
 
 ### Prerequisites
 
@@ -34,6 +35,7 @@ The example below shows how your application has to initiate and download a file
 ```csharp
 var configuration = new Configuration { AppSid = appSid, AppKey = appKey };
 StorageApi file = new StorageApi(configuration);
+
 FileGetDownloadRequest request = new FileGetDownloadRequest();
 request.path = "TestFile.pdf";
 request.storage = "StorageName";
@@ -41,7 +43,8 @@ var response = StorageApi.FileGetDownload(request);
 
 ```
 
-[Tests](/groupdocs-storage-cloud/groupdocs-storage-cloud-dotnet/tree/master/GroupDocs.Storage.Cloud.Sdk.Tests) contain various examples of using the SDK.
+[Tests](GroupDocs.Storage.Cloud.Sdk.Tests/) contain various examples of using the SDK.
+Please put your credentials into [Configuration](GroupDocs.Storage.Cloud.Sdk/Api/Configuration.cs).
 
 ## Dependencies
 - .NET Framework 2.0 or later
@@ -50,4 +53,4 @@ var response = StorageApi.FileGetDownload(request);
 
 
 ## Contact Us
-Your feedback is very important to us. Please feel free to contact us using our [Support Forums](https://forum.groupdocs.cloud/c/total).
+Your feedback is very important to us. Please feel free to contact us using our [Support Forums](https://forum.groupdocs.cloud/c/storage).
